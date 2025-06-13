@@ -115,11 +115,11 @@ int main() {
     texAxe.loadFromFile("graphics/axe.png");
 
     sf::Font font;
-    font.loadFromFile("graphics/KOMIKAP_.ttf");
+    font.loadFromFile("fonts/KOMIKAP_.ttf");
 
-    sf::Text pauseText("충돌! 엔터를 눌러 다시 시작", font, 80);
+    sf::Text pauseText("Press start again", font, 80);
     pauseText.setFillColor(sf::Color::Red);
-    pauseText.setPosition(500.f, 400.f);
+    pauseText.setPosition(600.f, 400.f);
 
     sf::Sprite background(texBackground);
     sf::Sprite tree(texTree);
